@@ -29,6 +29,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./Factoriel/sources
-          file: ./Factoriel/souces
+          file: ./Factoriel/sources
           push: true
           tags: maherzarai/dockerfactor:1.0.${{github.run_number}}
