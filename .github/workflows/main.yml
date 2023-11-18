@@ -28,7 +28,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: ./Factoriel
+          context: ./Factoriel/factorial.py
           file: ./Factoriel/dockerfile
           push: true
           tags: maherzarai/dockerfactor:1.0.${{github.run_number}}
