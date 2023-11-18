@@ -1,4 +1,4 @@
-name: Factorial Training
+name: Factorial training
 
 on:
   push:
