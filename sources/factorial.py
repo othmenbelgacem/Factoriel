@@ -14,7 +14,7 @@ def main():
             print("Please enter a non-negative integer Thank you.")
         else:
             result = factorial(num)
-            print("The factorial of {} is: {}".format(num, result))
+            print("The factoral of {} is: {}".format(num, result))
 
     except ValueError:
         print("Invalid input. Please enter a valid non-negative integer.")
